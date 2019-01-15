@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+		<!-- Action -->
+		<record id="action_client_name" model="ir.actions.client">
+			<field name="name">New Client Action</field>
+			<field name="tag">new-tag</field>
+			<field name="target">fullscreen</field>
+		</record>
+
+		<!-- Menu -->
+		<menuitem id="menu_new_kardex" name="Nuevo Kardex" parent="stock.menu_warehouse_report" action="action_client_new_kardex" sequence="14"/>
+	</data>
+</odoo>
